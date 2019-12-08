@@ -34,7 +34,10 @@ Hệ thống sẽ gồm có các container như sau:
                            +-----------------+                  
                                     X
 
-```
+                                    X
+ +------+proxy: network+-----------+X+----------+db: network+----------+
+                                    X
+                                    X
 
 ## Cấu trúc thư mục
 ```
